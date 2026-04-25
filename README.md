@@ -46,7 +46,7 @@ signal-cli -a +1234567890 verify CODE
 ### 3. Install Exorcist
 
 ```bash
-git clone https://github.com/shaynk/exorcist.git
+git clone https://github.com/joel-g/exorcist.git
 cd exorcist
 go build -o exorcist ./cmd/exorcist
 ```

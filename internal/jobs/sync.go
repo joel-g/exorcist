@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/shaynk/exorcist/internal/db"
-	"github.com/shaynk/exorcist/internal/signal"
+	"github.com/joel-g/exorcist/internal/db"
+	"github.com/joel-g/exorcist/internal/signal"
 )
 
 // SyncJob handles syncing messages from Signal and updating last_message_at

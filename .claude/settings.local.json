@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go mod init:*)",
+      "Bash(go get:*)",
+      "Bash(go build:*)",
+      "Bash(chmod:*)",
+      "Bash(brew install:*)",
+      "Bash(signal-cli:*)",
+      "Bash(go test:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: Exorcist - Signal group chat ghost reaper\n\nAdd complete implementation with comprehensive test suite:\n- Signal group chat monitoring via signal-cli\n- Automatic removal of inactive members after configurable days\n- Privacy-focused design \\(only stores user IDs and timestamps\\)\n- Automatic initialization on first run\n- Configurable cron schedules for sync and reap jobs\n\nFeatures:\n- Database layer with SQLite for group/member tracking\n- Signal client wrapper for signal-cli integration\n- Job system \\(init, sync, reap\\) with cron scheduling\n- Docker and Railway deployment support\n- MIT License\n\nTests:\n- 18 comprehensive tests covering all core functionality\n- Database operations \\(CRUD, inactive detection, cascades\\)\n- Signal message parsing and client operations\n- Job integration tests for sync, reap, and init workflows\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}

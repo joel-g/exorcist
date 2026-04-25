@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/shaynk/exorcist/internal/db"
-	"github.com/shaynk/exorcist/internal/signal"
+	"github.com/joel-g/exorcist/internal/db"
+	"github.com/joel-g/exorcist/internal/signal"
 )
 
 // InitJob handles initializing the database with existing group members

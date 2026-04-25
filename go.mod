@@ -1,4 +1,4 @@
-module github.com/shaynk/exorcist
+module github.com/joel-g/exorcist
 
 go 1.25.0
 

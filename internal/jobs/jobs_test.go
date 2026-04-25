@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/shaynk/exorcist/internal/db"
+	"github.com/joel-g/exorcist/internal/db"
 )
 
 // setupTestDB creates a temporary test database
