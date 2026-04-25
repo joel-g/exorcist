@@ -1,0 +1,34 @@
+# Binaries
+exorcist
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test files
+*.test
+*.out
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Signal CLI data (if stored locally)
+.local/
+signal-cli/
